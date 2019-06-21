@@ -71,7 +71,7 @@ $LNG['username_not_found'] = 'Chúng tôi không thể tìm thấy tên người
 $LNG['userkey_not_found'] = 'Tên người dùng hoặc mã đặt lại bị sai, đảm bảo bạn đã nhập đúng thông tin đăng nhập.';
 $LNG['password_reset'] = 'Bạn đã đặt lại thành công mật khẩu của mình, bây giờ bạn có thể đăng nhập bằng thông tin đăng nhập mới.';
 $LNG['email_sent'] = 'Email đã gửi';
-$LNG['email_reset'] = 'Một email chứa hướng dẫn đặt lại mật khẩu đã được gửi. Vui lòng cho phép chúng tôi tối đa 24 giờ để gửi tin nhắn, đồng thời kiểm tra hộp Spam của bạn nếu bạn không thể tìm thấy trong Hộp thư đến của mình.';
+$LNG['email_reset'] = 'Một email chứa hướng dẫn đặt lại mật khẩu đã được gửi. Vui lòng cho phép chúng tôi tối đa 24 giờ để gửi bài viết, đồng thời kiểm tra hộp Spam của bạn nếu bạn không thể tìm thấy trong Hộp thư đến của mình.';
 $LNG['user_has_been_deleted'] = 'Người dùng <strong>%s</strong> đã bị xóa.';
 $LNG['theme_changed'] = 'Thay đổi giao diện';
 $LNG['notif_saved'] = 'Thông báo thay đổi';
@@ -85,10 +85,10 @@ $LNG['recover_content'] = 'Yêu cầu khôi phục mật khẩu, nếu bạn kh�
 $LNG['email_hello'] = 'Xin chào <strong>%s</strong>,<br><br>';
 $LNG['email_unsub'] = '<br><br><span style="color: #aaa;">Thông báo này được gửi tự động, nếu bạn không muốn nhận các loại email này từ <strong>%s</strong> trong tương lai, vui lòng <a href="%s">Hủy đăng ký</a>.</span>';
 $LNG['email_copy'] = '<br><br><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
-$LNG['ttl_comment_email'] = '%s bình luận về tin nhắn của bạn';
-$LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> Đã bình luận về <strong><a href="%s">tin nhắn của bạn.</a></strong>'.$LNG['email_unsub'];
-$LNG['ttl_like_email'] = '%s thích tin nhắn của bạn';
-$LNG['like_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> thích <strong><a href="%s">tin nhắn của bạn.</a></strong>'.$LNG['email_unsub'];
+$LNG['ttl_comment_email'] = '%s bình luận về bài viết của bạn';
+$LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> Đã bình luận về <strong><a href="%s">bài viết của bạn.</a></strong>'.$LNG['email_unsub'];
+$LNG['ttl_like_email'] = '%s thích bài viết của bạn';
+$LNG['like_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> thích <strong><a href="%s">bài viết của bạn.</a></strong>'.$LNG['email_unsub'];
 $LNG['ttl_like_c_email'] = '%s thích bình luận của bạn';
 $LNG['like_c_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> thích <strong><a href="%s">bình luận của bạn.</a></strong>'.$LNG['email_unsub'];
 $LNG['ttl_new_friend_email'] = '%s đã gửi cho bạn một yêu cầu kết bạn';
@@ -103,9 +103,9 @@ $LNG['ttl_suspended_account_mail'] = 'Tài khoản của bạn đã bị tạm k
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Tài khoản của bạn đã bị tạm khóa. Nếu bạn nghĩ rằng đây là một lỗi, xin vui lòng liên hệ với chúng tôi.'.$LNG['email_copy'];
 $LNG['ttl_confirm_email'] = 'Kích hoạt tài khoản của bạn';
 $LNG['confirm_email'] = $LNG['email_hello'].'Cảm ơn bạn đã tham gia <strong>%s</strong>. Hoàn thành quá trình đăng ký của bạn bằng cách <a href="%s" target="_blank">nhấn vao đây</a>.'.$LNG['email_copy'];
-$LNG['ttl_mention_email'] = '%s đề cập đến bạn trong một tin nhắn';
+$LNG['ttl_mention_email'] = '%s đề cập đến bạn trong một bài viết';
 $LNG['ttl_mention_c_email'] = '%s đề cập đến bạn trong một bình luận';
-$LNG['mention_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> đề cập đến bạn trong một <strong><a href="%s">tin nhắn.</a></strong>'.$LNG['email_unsub'];
+$LNG['mention_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> đề cập đến bạn trong một <strong><a href="%s">bài viết.</a></strong>'.$LNG['email_unsub'];
 $LNG['mention_c_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> đề cập đến bạn trong một <strong><a href="%s">bình luận.</a></strong>'.$LNG['email_unsub'];
 
 // PHP MODULES
@@ -139,8 +139,8 @@ $LNG['post'] = 'Bài đăng';
 $LNG['view_more_messages'] = 'Tải thêm';
 $LNG['view_more_comments'] = 'Xem thêm bình luận';
 $LNG['delete_q_comment'] = 'Bạn có chắc là bạn muốn xoá bình luận này không?';
-$LNG['delete_q_message'] = 'Bạn có chắc chắn muốn xóa tin nhắn này?';
-$LNG['delete_q_chat'] = 'Bạn có chắc chắn muốn xóa tin nhắn trò chuyện này?';
+$LNG['delete_q_message'] = 'Bạn có chắc chắn muốn xóa bài viết này?';
+$LNG['delete_q_chat'] = 'Bạn có chắc chắn muốn xóa bài viết trò chuyện này?';
 $LNG['report_this_comment'] = 'Báo cáo bình luận này';
 $LNG['view_more'] = 'Xem thêm';
 $LNG['food'] = 'Tôi ăn: <strong>%s</strong>';
@@ -148,16 +148,16 @@ $LNG['map'] = 'Tôi ở: <strong>%s</strong>';
 $LNG['played'] = 'Tôi chơi: <strong>%s</strong>';
 $LNG['watched'] = 'Tôi xem: <strong>%s</strong>';
 $LNG['listened'] = 'Tôi nghe: <strong>%s</strong>';
-$LNG['shared_title'] = 'chia sẻ <a href="%s" rel="loadpage"><strong>tin nhắn</strong></a> của <a href="%s" rel="loadpage"><strong>%s</strong></a>.';
+$LNG['shared_title'] = 'chia sẻ <a href="%s" rel="loadpage"><strong>bài viết</strong></a> của <a href="%s" rel="loadpage"><strong>%s</strong></a>.';
 $LNG['group_title'] = 'đăng trong nhóm <a href="%s" rel="loadpage"><strong>%s</strong></a>.';
 $LNG['form_title'] = 'Cập nhật trạng thái của bạn';
 $LNG['comment_wrong'] = 'Đã xảy ra lỗi, vui lòng làm mới trang và thử lại.';
 $LNG['comment_too_long'] = 'Xin lỗi, số lượng ký tự tối đa được phép cho mỗi nhận xét là <strong>%s</strong>.';
 $LNG['comment_error'] = 'Xin lỗi, chúng tôi không thể đăng bình luận, vui lòng làm mới trang và thử lại.';
-$LNG['message_private'] = 'Xin lỗi, tin nhắn này là riêng tư, chỉ có tác giả của tin nhắn có thể nhìn thấy nó.';
-$LNG['message_private_ttl'] = 'Tin nhắn riêng';
-$LNG['message_semi_private'] = 'Xin lỗi, tin nhắn này là riêng tư, chỉ bạn bè và tác giả của tin nhắn này có thể nhìn thấy nó.';
-$LNG['message_semi_private_ttl'] = 'Tin nhắn riêng';
+$LNG['message_private'] = 'Xin lỗi, bài viết này là riêng tư, chỉ có tác giả của bài viết có thể nhìn thấy nó.';
+$LNG['message_private_ttl'] = 'Bài viết riêng';
+$LNG['message_semi_private'] = 'Xin lỗi, bài viết này là riêng tư, chỉ bạn bè và tác giả của bài viết này có thể nhìn thấy nó.';
+$LNG['message_semi_private_ttl'] = 'Bài viết riêng';
 $LNG['login_to_lcs'] = 'Đăng nhập để thích, bình luận hoặc chia sẻ';
 $LNG['message'] = 'Nhắn tin';
 $LNG['comment'] = 'Bình luận';
@@ -166,24 +166,24 @@ $LNG['camera'] = 'Camera';
 $LNG['capture'] = 'Chụp';
 $LNG['send'] = 'Gửi';
 $LNG['shared_success'] = 'Bài viết đã được chia sẻ thành công trên <a href="%s" rel="loadpage"><strong>dòng thời gian của bạn</strong></a>.';
-$LNG['no_shared'] = 'Xin lỗi nhưng tin nhắn này không thể được chia sẻ.';
+$LNG['no_shared'] = 'Xin lỗi nhưng bài viết này không thể được chia sẻ.';
 $LNG['share_desc'] = 'Bạn có chắc chắn muốn chia sẻ thông điệp này trên dòng thời gian của mình không?';
 $LNG['cancel'] = 'Hủy';
 $LNG['close'] = 'Đóng';
 $LNG['download'] = 'Tải về';
 
 // REPORT
-$LNG['1_not_exists'] = 'Tin nhắn được báo cáo không tồn tại.';
+$LNG['1_not_exists'] = 'Bài viết được báo cáo không tồn tại.';
 $LNG['0_not_exists'] = 'Bình luận được báo cáo không tồn tại.';
-$LNG['1_already_reported'] = 'Tin nhắn này đã được báo cáo và nó sẽ được xem xét trong thời gian ngắn nhất, cảm ơn bạn.';
+$LNG['1_already_reported'] = 'Bài viết này đã được báo cáo và nó sẽ được xem xét trong thời gian ngắn nhất, cảm ơn bạn.';
 $LNG['0_already_reported'] = 'Bình luận này đã được báo cáo và nó sẽ được xem xét trong thời gian ngắn nhất, cảm ơn bạn.';
-$LNG['1_is_safe'] = 'Tin nhắn này được đánh dấu là <strong>an toàn</strong> bởi quản trị viên, cảm ơn bạn đã phản hồi.';
+$LNG['1_is_safe'] = 'Bài viết này được đánh dấu là <strong>an toàn</strong> bởi quản trị viên, cảm ơn bạn đã phản hồi.';
 $LNG['0_is_safe'] = 'Bình luận này được đánh dấu là <strong>an toàn</strong> bởi quản trị viên, cảm ơn bạn đã phản hồi.';
-$LNG['1_report_added'] = 'Tin nhắn đã được báo cáo, cảm ơn bạn đã phản hồi.';
+$LNG['1_report_added'] = 'Bài viết đã được báo cáo, cảm ơn bạn đã phản hồi.';
 $LNG['0_report_added'] = 'Bình luận đã được báo cáo, cảm ơn bạn đã phản hồi.';
-$LNG['1_report_error'] = 'Xin lỗi nhưng đã xảy ra lỗi khi báo cáo tin nhắn này, vui lòng làm mới trang và thử lại.';
+$LNG['1_report_error'] = 'Xin lỗi nhưng đã xảy ra lỗi khi báo cáo bài viết này, vui lòng làm mới trang và thử lại.';
 $LNG['0_report_error'] = 'Xin lỗi nhưng đã xảy ra lỗi khi báo cáo bình luận này, vui lòng làm mới trang và thử lại.';
-$LNG['1_is_deleted'] = 'Tin nhắn đã bị xóa, cảm ơn bạn đã phản hồi.';
+$LNG['1_is_deleted'] = 'Bài viết đã bị xóa, cảm ơn bạn đã phản hồi.';
 $LNG['0_is_deleted'] = 'Bình luận đã bị xóa, cảm ơn bạn đã phản hồi.';
 $LNG['rep_comment'] = 'Bình luận';
 
@@ -229,10 +229,10 @@ $LNG['sidebar_tag'] = 'Thẻ';
 
 // MESSAGES / CHAT
 $LNG['lonely_here'] = 'Ở đây thật cô đơn, hãy kết bạn nào?';
-$LNG['chat_too_long'] = 'Xin lỗi, nhưng số lượng ký tự tối đa được phép cho mỗi tin nhắn trò chuyện là <strong>%s</strong>.';
+$LNG['chat_too_long'] = 'Xin lỗi, nhưng số lượng ký tự tối đa được phép cho mỗi bài viết trò chuyện là <strong>%s</strong>.';
 $LNG['blocked_by'] = 'Thông điệp này không thể được gửi đi. <strong>%s</strong> đã chặn bạn.';
 $LNG['blocked_user'] = 'Thông điệp này không thể được gửi đi. Bạn đã chặn <strong>%s</strong>.';
-$LNG['chat_self'] = 'Xin lỗi nhưng bạn không thể gửi tin nhắn trò chuyện cho chính mình.';
+$LNG['chat_self'] = 'Xin lỗi nhưng bạn không thể gửi bài viết trò chuyện cho chính mình.';
 $LNG['chat_no_user'] = 'Bạn phải chọn một người dùng để trò chuyện.';
 $LNG['view_more_conversations'] = 'Xem thêm cuộc hội thoại';
 $LNG['block'] = 'Chặn';
@@ -241,7 +241,7 @@ $LNG['poke'] = 'Chọc lét';
 $LNG['poked'] = 'Đã chọc lét';
 $LNG['conversation'] = 'Cuộc hội thoại';
 $LNG['start_conversation'] = 'Bạn có thể bắt đầu một cuộc trò chuyện bằng cách chọn một người từ danh sách bạn bè của bạn.';
-$LNG['send_message'] = 'Gửi tin nhắn';
+$LNG['send_message'] = 'Gửi bài viết';
 
 // MESSAGE FORM
 $LNG['label_food'] = 'Thêm những gì bạn đã ăn';
@@ -255,10 +255,10 @@ $LNG['file_too_big'] = 'Kích thước tệp đã chọn (%s) quá lớn, kích 
 $LNG['format_not_exist'] = 'Định dạng tập tin được chọn (%s) không hợp lệ, vui lòng chỉ tải lên định dạng <strong>%s</strong>.';
 $LNG['privacy_no_exist'] = 'Quyền riêng tư được chọn không tồn tại, vui lòng làm mới trang và thử lại.';
 $LNG['event_not_exist'] = 'Sự kiện đã chọn không tồn tại, vui lòng làm mới trang và thử lại.';
-$LNG['change_privacy'] = 'Ai nên xem tin nhắn này';
+$LNG['change_privacy'] = 'Ai nên xem bài viết này';
 
-$LNG['message_too_long'] = 'Xin lỗi, nhưng số lượng ký tự tối đa được phép cho mỗi tin nhắn là <strong>%s</strong>.';
-$LNG['too_many_images'] = 'Số lượng hình ảnh tối đa được phép tải lên trên mỗi tin nhắn là <strong>%s</strong>, bạn đã cố tải lên <strong>%s</strong> hình.';
+$LNG['message_too_long'] = 'Xin lỗi, nhưng số lượng ký tự tối đa được phép cho mỗi bài viết là <strong>%s</strong>.';
+$LNG['too_many_images'] = 'Số lượng hình ảnh tối đa được phép tải lên trên mỗi bài viết là <strong>%s</strong>, bạn đã cố tải lên <strong>%s</strong> hình.';
 
 // USER PANEL
 $LNG['user_menu_general'] = 'Chung';
@@ -276,7 +276,7 @@ $LNG['user_ttl_avatar'] = 'Cài đặt hình ảnh hồ sơ';
 $LNG['user_ttl_notifications'] = 'Cài đặt thông báo';
 $LNG['user_ttl_privacy'] = 'Cài đặt riêng tư';
 
-$LNG['blocked_desc'] = 'Những người bị chặn không còn có thể nhìn thấy những thứ bạn đăng trên dòng thời gian, tin nhắn hoặc thêm bạn làm bạn bè.';
+$LNG['blocked_desc'] = 'Những người bị chặn không còn có thể nhìn thấy những thứ bạn đăng trên dòng thời gian, bài viết hoặc thêm bạn làm bạn bè.';
 $LNG['delete_acc_desc'] = 'Tài khoản của bạn sẽ bị xóa vĩnh viễn cùng với tất cả các nội dung liên quan của nó.';
 
 $LNG['ttl_first_name'] = $LNG['first_name'] = 'Tên';
@@ -315,8 +315,8 @@ $LNG['sub_school'] = 'Nhập tên trường bạn đã theo học';
 $LNG['ttl_profile'] = 'Hồ sơ';
 $LNG['sub_profile'] = 'Hiển thị hồ sơ';
 
-$LNG['ttl_messages'] = 'Tin nhắn';
-$LNG['sub_messages'] = 'Cách gửi tin nhắn mặc định';
+$LNG['ttl_messages'] = 'Bài viết';
+$LNG['sub_messages'] = 'Cách gửi bài viết mặc định';
 
 $LNG['ttl_offline'] = 'Trạng thái trò chuyện';
 $LNG['sub_offline'] = 'Trạng thái hiển thị cho Trò chuyện';
@@ -340,7 +340,7 @@ $LNG['privacy'] = 'Quyền riêng tư';
 $LNG['public'] = 'Công cộng';
 $LNG['private'] = 'Riêng tư';
 $LNG['report'] = 'Báo cáo';
-$LNG['delete_message'] = 'Xóa tin nhắn';
+$LNG['delete_message'] = 'Xóa bài viết';
 $LNG['remove_user'] = 'Xóa người dùng';
 
 $LNG['opt_offline_off'] = 'Trực tuyến (khi có sẵn)';
@@ -385,8 +385,8 @@ $LNG['sub_notificationl'] = 'Hiển thị cảnh báo và thông báo cho <stron
 $LNG['ttl_notificationc'] = 'Thông báo liên quan đến bình luận';
 $LNG['sub_notificationc'] = 'Hiển thị cảnh báo và thông báo cho <strong>Lượt Bình luận</strong>';
 
-$LNG['ttl_notifications'] = 'Thông báo liên quan đến tin nhắn';
-$LNG['sub_notifications'] = 'Hiển thị cảnh báo và thông báo cho <strong>Tin nhắn được chia sẻ</strong>';
+$LNG['ttl_notifications'] = 'Thông báo liên quan đến bài viết';
+$LNG['sub_notifications'] = 'Hiển thị cảnh báo và thông báo cho <strong>Bài viết được chia sẻ</strong>';
 
 $LNG['ttl_notificationd'] = 'Thông báo liên quan đến chat';
 $LNG['sub_notificationd'] = 'Hiển thị cảnh báo và thông báo cho <strong>Chats</strong>';
@@ -410,13 +410,13 @@ $LNG['ttl_sound_nn'] = 'Âm thanh thông báo';
 $LNG['sub_sound_nn'] = 'Phát âm thanh khi nhận được thông báo mới';
 
 $LNG['ttl_sound_nc'] = 'Âm thanh chat';
-$LNG['sub_sound_nc'] = 'Phát âm thanh khi nhận được tin nhắn trò chuyện mới';
+$LNG['sub_sound_nc'] = 'Phát âm thanh khi nhận được bài viết trò chuyện mới';
 
 $LNG['ttl_email_comment'] = 'Email liên quan đến bình luận';
-$LNG['sub_email_comment'] = 'Nhận email khi ai đó nhận xét về tin nhắn của bạn';
+$LNG['sub_email_comment'] = 'Nhận email khi ai đó nhận xét về bài viết của bạn';
 
 $LNG['ttl_email_like'] = 'Email liên quan đến thích';
-$LNG['sub_email_like'] = 'Nhận email khi ai đó thích tin nhắn của bạn';
+$LNG['sub_email_like'] = 'Nhận email khi ai đó thích bài viết của bạn';
 
 $LNG['ttl_email_new_friend'] = 'Email liên quan đến bạn bè';
 $LNG['sub_email_new_friend'] = 'Nhận email khi ai đó gửi hoặc xác nhận yêu cầu kết bạn';
@@ -727,13 +727,13 @@ $LNG['view_who_shared'] = 'Xem ai đã chia sẻ';
 // MISC
 $LNG['sponsored'] = 'Tài trợ';
 $LNG['censored'] = '<strong>censored</strong>';
-$LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a> đã thích <a href="%s" rel="loadpage">tin nhắn của bạn</a>';
+$LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a> đã thích <a href="%s" rel="loadpage">bài viết của bạn</a>';
 $LNG['new_like_c_notification'] = '<a href="%s" rel="loadpage">%s</a> đã thích <a href="%s" rel="loadpage">bình luận của bạn</a>';
-$LNG['new_like_mention'] = '<a href="%s" rel="loadpage">%s</a> đã nhắc tới bạn trong một <a href="%s" rel="loadpage">tin nhắn</a>';
+$LNG['new_like_mention'] = '<a href="%s" rel="loadpage">%s</a> đã nhắc tới bạn trong một <a href="%s" rel="loadpage">bài viết</a>';
 $LNG['new_like_c_mention'] = '<a href="%s" rel="loadpage">%s</a> đã nhắc tới bạn trong một <a href="%s" rel="loadpage">bình luận</a>';
 $LNG['new_poke_notification'] = '<a href="%s" rel="loadpage">%s</a> đã chọc lét bạn';
-$LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s</a> đã bình luận vào <a href="%s" rel="loadpage">tin nhắn của bạn</a>';
-$LNG['new_shared_notification'] = '<a href="%s" rel="loadpage">%s</a> đã chia sẻ <a href="%s" rel="loadpage">tin nhắn của bạn</a>';
+$LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s</a> đã bình luận vào <a href="%s" rel="loadpage">bài viết của bạn</a>';
+$LNG['new_shared_notification'] = '<a href="%s" rel="loadpage">%s</a> đã chia sẻ <a href="%s" rel="loadpage">bài viết của bạn</a>';
 $LNG['new_page_notification'] = '<a href="%s" rel="loadpage">%s</a> đã mời bạn thích trang <a href="%s" rel="loadpage">%s</a>';
 $LNG['new_group_notification'] = '<a href="%s" rel="loadpage">%s</a> đã mời bạn tham gia nhóm <a href="%s" rel="loadpage">%s</a>';
 $LNG['new_friend_notification'] = '<a href="%s" rel="loadpage">%s</a> đã chấp nhận lời mời kết bạn của bạn';
@@ -741,10 +741,10 @@ $LNG['new_chat_notification'] = '<a href="%s" rel="loadpage">%s</a> đã gửi b
 $LNG['new_birthday_notification'] = 'Sinh nhật của <a href="%s" rel="loadpage">%s</a>';
 $LNG['years_old'] = '%s tuổi';
 $LNG['x_and_x_others'] = '<a href="%s" rel="loadpage">%s</a> và <a href="%s" rel="loadpage">%s hơn</a>';
-$LNG['new_like_fa'] = '<a href="%s" rel="loadpage">%s</a> đã thích một <a href="%s" rel="loadpage">tin nhắn</a>';
+$LNG['new_like_fa'] = '<a href="%s" rel="loadpage">%s</a> đã thích một <a href="%s" rel="loadpage">bài viết</a>';
 $LNG['new_like_c_fa'] = '<a href="%s" rel="loadpage">%s</a> đã thích một <a href="%s" rel="loadpage">bình luận</a>';
-$LNG['new_comment_fa'] = '<a href="%s" rel="loadpage">%s</a> đã bình luận trên một <a href="%s" rel="loadpage">tin nhắn</a>';
-$LNG['new_message_fa'] = '<a href="%s" rel="loadpage">%s</a> đã đăng một <a href="%s" rel="loadpage">tin nhắn mới</a>';
+$LNG['new_comment_fa'] = '<a href="%s" rel="loadpage">%s</a> đã bình luận trên một <a href="%s" rel="loadpage">bài viết</a>';
+$LNG['new_message_fa'] = '<a href="%s" rel="loadpage">%s</a> đã đăng một <a href="%s" rel="loadpage">bài viết mới</a>';
 $LNG['change_password'] = 'Đổi mật khẩu';
 $LNG['enter_new_password'] = 'Nhập mật khẩu mới của bạn';
 $LNG['enter_reset_key'] = 'Nhập mã đặt lại';
@@ -784,7 +784,7 @@ $LNG['page_name_less'] = 'Tên trang phải nhỏ hơn %s ký tự';
 $LNG['page_title_less'] = 'Tiêu đề trang phải nhỏ hơn %s ký tự';
 $LNG['page_desc_less'] = 'Mô tả trang phải nhỏ hơn %s ký tự';
 $LNG['invalid_phone'] = 'Số điện thoại chỉ có thể chứa các chữ số, dấu cộng (+) và dấu trừ (-).';
-$LNG['page_delete_desc'] = 'Xóa trang cũng sẽ xóa các tin nhắn của nó cùng với nội dung của chúng.';
+$LNG['page_delete_desc'] = 'Xóa trang cũng sẽ xóa các bài viết của nó cùng với nội dung của chúng.';
 $LNG['page_deleted'] = 'Trang <strong>%s</strong> đã bị xóa';
 $LNG['page_maximum'] = 'Bạn đã vượt quá số lượng trang tối đa được phép (%s).';
 $LNG['group_maximum'] = 'Bạn đã vượt quá số lượng nhóm tối đa được phép (%s).';
@@ -836,7 +836,7 @@ $LNG['group_name_taken'] = 'Tên nhóm này đã được sử dụng';
 $LNG['group_name_less'] = 'Tên nhóm phải nhỏ hơn %s ký tự';
 $LNG['group_title_less'] = 'Tiêu đề nhóm phải nhỏ hơn %s ký tự';
 $LNG['group_desc_less'] = 'Mô tả nhóm phải nhỏ hơn %s ký tự';
-$LNG['group_delete_desc'] = 'Xóa nhóm cũng sẽ xóa tin nhắn của nó cùng với nội dung của họ.';
+$LNG['group_delete_desc'] = 'Xóa nhóm cũng sẽ xóa bài viết của nó cùng với nội dung của họ.';
 $LNG['group_deleted'] = 'Nhóm <strong>%s</strong> đã bị xóa';
 
 $LNG['invite_friends'] = 'Mời bạn bè';
@@ -873,7 +873,7 @@ $LNG['profile_bio']	= 'Lý lịch';
 $LNG['verified_page'] = 'Trang đã xác minh';
 $LNG['edit_profile_cover'] = 'Thay đổi hình ảnh hồ sơ';
 $LNG['view_all_notifications'] = 'Xem thêm thông báo';
-$LNG['view_chat_notifications'] = 'Xem thêm tin nhắn';
+$LNG['view_chat_notifications'] = 'Xem thêm bài viết';
 $LNG['view_confirmed_friendships'] = 'Xem các yêu cầu được xác nhận';
 $LNG['close_notifications'] = 'Đóng thông báo';
 $LNG['notifications_settings'] = 'Cài đặt thông báo';
@@ -885,7 +885,7 @@ $LNG['no_results'] = 'Không có kết quả. Hãy thử tìm kiếm lại.';
 $LNG['no_results_ttl'] = 'Kết quả tìm kiếm';
 $LNG['search_for_users'] = 'Tìm kiếm người dùng';
 $LNG['search_in_friends'] = 'Tìm kiếm trong bạn bè';
-$LNG['type_message'] = 'Gõ một tin nhắn...';
+$LNG['type_message'] = 'Gõ một bài viết...';
 $LNG['follows'] = 'Lượt theo dõi';
 $LNG['followed_by'] = 'Theo dõi bởi';
 $LNG['people'] = 'người';
@@ -899,7 +899,7 @@ $LNG['re_activate_sent'] = 'Một email kích hoạt đã được gửi';
 $LNG['title_profile'] = 'Hồ sơ';
 $LNG['title_feed'] = 'Trang tin tức';
 $LNG['title_post'] = 'Bài đăng';
-$LNG['title_messages'] = 'Tin nhắn';
+$LNG['title_messages'] = 'Bài viết';
 $LNG['title_settings'] = 'Cài đặt';
 $LNG['title_search'] = 'Tìm kiếm';
 $LNG['title_notifications'] = 'Thông báo';
@@ -921,7 +921,7 @@ $LNG['pages'] = 'Trang';
 $LNG['search_for_people'] = 'tìm người, #thẻ';
 $LNG['search_pages'] = ', @trang';
 $LNG['search_groups'] = ', !nhóm';
-$LNG['new_message'] = 'Tin nhắn mới';
+$LNG['new_message'] = 'Bài viết mới';
 $LNG['privacy_policy'] = 'Chính sách bảo mật';
 $LNG['terms_of_use'] = 'Điều khoản sử dụng';
 $LNG['about'] = 'Giới thiệu';
