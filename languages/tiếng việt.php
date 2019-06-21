@@ -445,7 +445,7 @@ $LNG['admin_ttl_site_settings'] 	= $LNG['admin_menu_site_settings'] 	= 'Site Set
 $LNG['admin_ttl_themes'] 			= $LNG['admin_menu_themes'] 		= 'Themes';
 $LNG['admin_ttl_plugins'] 			= $LNG['admin_menu_plugins'] 		= 'Plugins';
 $LNG['admin_ttl_languages']			= $LNG['admin_menu_languages'] 		= 'Languages';
-$LNG['admin_ttl_stats'] 			= $LNG['admin_menu_stats'] 			= 'Statistics';
+$LNG['admin_ttl_stats'] 			= $LNG['admin_menu_stats'] 			= 'Thống kê';
 $LNG['admin_ttl_security'] 			= $LNG['admin_menu_security'] 		= 'Password';
 $LNG['admin_ttl_users'] 			= $LNG['admin_menu_users'] 			= 'Manage Users';
 $LNG['admin_ttl_manage_pages']		= $LNG['admin_menu_manage_pages']	= 'Manage Pages';
@@ -589,7 +589,7 @@ $LNG['smtp_sub_username'] = 'The SMTP Username';
 $LNG['smtp_password'] = 'SMTP Password';
 $LNG['smtp_sub_password'] = 'The SMTP Password';
 
-$LNG['admin_ttl_edit'] = 'Edit';
+$LNG['admin_ttl_edit'] = 'Sửa';
 $LNG['admin_ttl_edit_profile'] = 'Sửa hồ sơ';
 
 $LNG['admin_ttl_delete'] = 'Delete';
@@ -677,24 +677,24 @@ $LNG['chat_picture'] = 'Upload image';
 $LNG['chat_camera'] = 'Take a photo';
 
 // STATS
-$LNG['likes'] = 'Likes';
-$LNG['messages'] = 'Messages';
-$LNG['comments'] = 'Comments';
-$LNG['registered_users'] = 'Registered Users';
-$LNG['today'] = 'Today';
-$LNG['this_week'] = 'This Week';
-$LNG['this_month'] = 'This Month';
-$LNG['this_year'] = 'This Year';
-$LNG['total'] = 'Total';
-$LNG['total_likes'] = 'Total Likes';
-$LNG['date'] = 'Date';
-$LNG['evolution'] = 'Evolution';
+$LNG['likes'] = 'Lượt thích';
+$LNG['messages'] = 'Bài viết';
+$LNG['comments'] = 'Bình luận';
+$LNG['registered_users'] = 'Người dùng đã đăng ký';
+$LNG['today'] = 'Hôm nay';
+$LNG['this_week'] = 'Tuần này';
+$LNG['this_month'] = 'Tháng này';
+$LNG['this_year'] = 'Năm nay';
+$LNG['total'] = 'Tổng cộng';
+$LNG['total_likes'] = 'Tổng lượt thích';
+$LNG['date'] = 'Ngày';
+$LNG['evolution'] = 'Quá trình phát triển';
 
-$LNG['reports'] = 'Reports';
-$LNG['total_reports'] = 'Total Reports';
-$LNG['pending_reports'] = 'Pending Reports';
-$LNG['safe_reports'] = 'Safe Reports';
-$LNG['deleted_reports'] = 'Deleted Reports';
+$LNG['reports'] = 'Báo cáo';
+$LNG['total_reports'] = 'Tổng lượt báo cáo';
+$LNG['pending_reports'] = 'Báo cáo đang chờ';
+$LNG['safe_reports'] = 'Báo cáo an toàn';
+$LNG['deleted_reports'] = 'Báo cáo đã xóa';
 
 // DASHBOARD
 $LNG['admin_panel'] = 'Admin Panel';
