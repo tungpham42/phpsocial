@@ -659,11 +659,11 @@ $LNG['url_exists'] = 'This page URL already exists';
 
 $LNG['per_page'] = '/ page';
 $LNG['per_ip'] = '/ IP';
-$LNG['second'] = 'second';
-$LNG['seconds'] = 'seconds';
-$LNG['minute'] = 'minute';
-$LNG['minutes'] = 'minutes';
-$LNG['hour'] = 'hour';
+$LNG['second'] = 'giây';
+$LNG['seconds'] = 'giây';
+$LNG['minute'] = 'phút';
+$LNG['minutes'] = 'phút';
+$LNG['hour'] = 'giờ';
 $LNG['recommended'] = 'recommended';
 $LNG['edit_user'] = 'Edit User';
 $LNG['username_to_edit'] = 'Username';
